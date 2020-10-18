@@ -11,7 +11,7 @@ class thread1 extends Thread
         for (int i=0 ;i<5;i++)
         {
            System.out.println("Printing the count " + i);
-           Thread.sleep(1000);
+           Thread.sleep(1500);
         }
      }
      catch(InterruptedException e)
@@ -36,7 +36,7 @@ class ForMainThread
       }
       catch(InterruptedException e)
       {
-        System.out.println("Main thread interrupted");
+        System.out.println("Main thread interrupted after first thread");
       }
       System.out.println("Main thread finished" );
    }
