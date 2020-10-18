@@ -25,10 +25,10 @@ class ForMainThread
 {
    public static void main(String args[])
    {	
-      thread1 ob = new thread1();
+      thread1 ob1 = new thread1();
       try
       {
-         while(ob.isAlive())
+         while(ob1.isAlive())
          {
            System.out.println("Main thread will be alive till the child thread is live");
            Thread.sleep(1500);
