@@ -39,5 +39,6 @@ class ForMainThread
         System.out.println("Main thread interrupted after first thread");
       }
       System.out.println("Main thread finished" );
+      System.out.println();
    }
 }
